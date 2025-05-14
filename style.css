@@ -9,11 +9,21 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
+  gap: 10px;
 }
 .box {
   width: 200px;
   height: 200px;
   background-color: #211401;
+}
+.btn {
+  padding: 12px 24px;
+  outline: none;
+}
+.btn:hover {
+  background-color: #211401;
+  color: #fff;
 }
