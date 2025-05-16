@@ -9,7 +9,10 @@
   if (button && box) {
     button.addEventListener("click", function () {
       // Set background color
-      box.style.backgroundColor = "red";
+      box.style.backgroundColor = "red" 
+      
+      //Changing the buttons text FROM "Click Me" to "Toggle";
+      button.textContent = "Toggle"
     });
   }
 
