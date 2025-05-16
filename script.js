@@ -1,8 +1,9 @@
-// 1. Add the click event listerner to the button that will change the background color of the box to red
+// 1. Add the click event listener to the button that will change the background color of the box to red
 
 // Add your JavaScript code here
 
 // Wait for the DOM to load
+
   const button = document.querySelector("button");
   const box = document.querySelector(".box");
 
@@ -15,4 +16,3 @@
       button.textContent = "Toggle"
     });
   }
-
