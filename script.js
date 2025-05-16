@@ -3,13 +3,12 @@
 // Add your JavaScript code here
 
 // Wait for the DOM to load
-  const button = document.querySelector("button");
-  const box = document.querySelector(".box");
+const button = document.querySelector("button")
+const box = document.querySelector(".box")
 
-  if (button && box) {
-    button.addEventListener("click", function () {
-      // Set background color
-      box.style.backgroundColor = "red";
-    });
-  }
-
+if (button && box) {
+  button.addEventListener("click", function () {
+    // Set background color
+    box.style.backgroundColor = "red"
+  })
+}
