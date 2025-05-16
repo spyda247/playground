@@ -11,8 +11,8 @@
       // Set background color
       box.style.backgroundColor = "red" 
       
-      //Changing the buttons text FROM "Click Me" to "Toggle";
-      button.textContent = "Toggle"
+      //Changing the buttons text FROM "Click Me" to "Toggle"
+      button.textContent = "Toggle";
     });
   }
 
